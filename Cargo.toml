@@ -1,0 +1,21 @@
+[package]
+name = "ordbog"
+version = "0.1.0"
+edition = "2018"
+authors = ["Graydon Hoare <graydon@pobox.com>"]
+license = "MIT OR Apache-2.0"
+keywords = ["compression", "encoding", "dictionary"]
+repository = "http://github.com/graydon/ordbog"
+readme = "README.md"
+
+[dependencies]
+float-ord = "0.3.1"
+
+[dev-dependencies]
+proptest = "1.0.0"
+zip = "0.5.12"
+http_req = "0.7.2"
+rand = "0.8.3"
+rand_distr = "0.4.0"
+float_next_after = "0.1.5"
+plotlib = "0.5.1"
