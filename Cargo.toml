@@ -1,5 +1,6 @@
 [package]
 name = "ordbog"
+description = "lossy dictionary codes for accelerated scans"
 version = "0.1.0"
 edition = "2018"
 authors = ["Graydon Hoare <graydon@pobox.com>"]
